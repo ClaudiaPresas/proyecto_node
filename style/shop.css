@@ -1,0 +1,77 @@
+.main-shop-container {
+  display: flex;
+}
+
+.main-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.main-card-container {
+  padding: 60px 30px;
+}
+
+.asider-contenedor {
+  width: 243.04px;
+  height: 493.928px;
+  padding: 20px 30px;
+}
+
+.asider-contenedor {
+  margin: 0;
+}
+
+.aside__title {
+  padding: 10px 30px 5px 0;
+  font-size: var(--font-medium);
+  font-family: var(--font-large);
+}
+
+.aside__filtros {
+  width: 175px;
+  height: 24px;
+  border-radius: 6px;
+}
+
+.aside__precio {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-12);
+  font-size: var(--font-sxmall);
+}
+
+.aside__min-max {
+  border-radius: 6px;
+  width: 50px;
+  height: 20px;
+  font-family: var(--font-small);
+}
+
+.aside__filtrar-items {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--inter);
+  font-size: var(--font-small);
+  padding: var(--spacing-12);
+  gap: var(--spacing-12);
+}
+
+.checkbox {
+  border-radius: 6px;
+}
+
+.paginador {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 2rem;
+}
+
+.paginador button {
+  height: 44px;
+  width: 44px;
+  border-radius: 4px;
+  background-color: var(--light-font-solid);
+}
