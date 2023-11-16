@@ -1,74 +1,13 @@
-/* .container-shop-items {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: var(--spacing-36);
-  align-items: center;
-}
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  padding: var(--spacing-16) 0;
-} */
-
-/* .shop-items__content {
-  border: 1px solid green;
-  padding: var(--spacing-8);
-  height: 50rem;
-}
-
-.card-items__licence {
-  font-family: var(--base-font);
-  font-size: var(--medium);
-}
-
-.items__name {
-  font-family: var(--base-font);
-  font-size: var(--font-jumbo);
-}
-
-.shop-items__text {
-  font-family: var(--base-font);
-  font-size: var(--font-large);
-}
-
-.items__price {
-  padding: var(--spacing-16);
-  font-family: var(--base-font);
-  font-size: var(--font-jumbo);
-}
-
-.shop-items__comprar {
-  display: flex;
-}
-
-/* .shop-items__carrito {
-  background-color: var(--primary-solid);
-  color: var(--light-font-solid);
-  padding: var(--spacing-8);
-} 
-
-.items__promo {
-  font-size: var(--font-sxmall);
-  color: var(--secondary-solid);
-  font-weight: 700;
-  padding-top: 2rem;
-} */
-.container {
-  gap: 2rem;
-}
-
 .item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  border: 1px solid red;
-  gap: 2rem;
 }
 
 .card-item__licence {
   font-size: var(--font-sxmall);
   font-weight: 500;
+  color: var(--dark-bg-solid);
 }
 
 .item__buttons {
@@ -83,12 +22,14 @@
 }
 
 .item__name {
-  font-size: var(--font-medium);
+  color: var(--dark-solid);
+  font-size: var(--font-large);
   font-weight: 700;
 }
 
 .item__price {
-  font-size: var(--font-small);
+  font-size: var(--font-large);
+  color: var(--dark-bg-solid);
 }
 
 .item__info {
@@ -101,15 +42,21 @@
   background-color: var(--dark-bg-solid);
   color: var(--light-bg-solid);
   font-size: var(--font-sxmall);
+  font-style: bold;
+  width: 2rem;
+  border: none;
 }
 
 .item__input {
-  width: 12rem;
+  width: 8rem;
 }
 
 .item__submit {
+  font-family: var(--alternative-font);
+  font-size: var(--font-sxmall);
   background-color: var(--primary-solid);
   color: var(--light-bg-solid);
+  width: 13rem;
 }
 .item__promo {
   font-size: var(--font-sxmall);

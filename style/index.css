@@ -7,6 +7,7 @@
 @import url("./shop.css");
 @import url("./items.css");
 @import url("./login.css");
+@import url("./cart.css");
 
 :root {
   /*Palette*/
@@ -100,7 +101,6 @@ header {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .navbar {
