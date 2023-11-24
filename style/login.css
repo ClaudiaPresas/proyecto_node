@@ -1,164 +1,71 @@
-.cart-container {
-  display: flex;
-  flex-direction: column;
+.body__class {
+  height: 100vh;
+  max-height: 100vh;
 }
 
-.container__compras {
+.register-content {
+  border: 1px solid red;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+  height: 60%;
+  flex: 1;
 
-.cart__title {
-  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: var(--spacing-36);
+}
+
+.register-title {
   color: var(--dark-solid);
   font-family: var(--alternative-font);
-  font-size: var(--font-xlarge);
-  text-decoration: underline;
-  text-decoration-color: var(--primary-solid);
+  font-size: var(--font-jumbo);
 }
 
-.cart__detalle-compra {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr 0.5fr;
-  align-items: center;
-  justify-content: center;
-  height: 3rem;
-  border-radius: 10px;
-  margin-top: 60px;
-  margin-bottom: 32px;
-  background-color: var(--light-bg-solid);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-}
-
-.cart__detalle-compra h6 {
-  display: flex;
-  justify-content: center;
-  font-family: var(--base-font);
-  font-size: var(--font-small);
-}
-
-.cart__compra {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr 0.5fr;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  background-color: var(--light-bg-solid);
-}
-
-.cart__content {
-  display: flex;
-  align-items: center;
-}
-
-.cart__text {
-  margin-left: 2rem;
-}
-
-.cart__content img {
-  width: 15rem;
-}
-
-.cart__text h1 {
-  color: var(--dark-solid);
-  font-family: var(--base-font);
-}
-
-.cart__content p {
-  font-family: var(--base-font);
-  font-size: var(--alternative-font);
-  color: var(--dark-bg-solid);
-  padding: var(--spacing-8) 0;
-}
-
-.cart-button {
-  background-color: var(--primary-solid);
-  height: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: none;
-}
-
-.cart__precio {
-  display: flex;
-  justify-content: center;
-  color: var(--dark-bg-solid);
-}
-
-.cart__button input {
-  width: 3rem;
-}
-
-.cart-content__resumen {
+.form-content {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  margin-top: 68px;
-  margin-bottom: 128px;
+  gap: var(--spacing-20);
+  font-family: var(--base-font);
+  font-size: var(--font-sxmall);
 }
 
-.cart-content__resumen h3 {
-  color: var(--dark-solid);
-  font-family: var(--alternative-font);
-  font-size: var(--font-xlarge);
-  text-decoration: underline;
-  text-decoration-color: var(--primary-solid);
-}
-
-.cart-content__resumen button {
-  color: white;
-  font-size: 32px;
-  font-weight: 700;
-  width: 572px;
-  padding: 14px 193px;
-  background-color: #ff3333;
-  border: none;
-}
-
-.cart-content__resumen__total {
+.form-input {
   display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  background-color: #fafaff;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-  margin-top: 26px;
-  margin-bottom: 44px;
-  gap: 20px;
-  padding: 24px;
-  width: 572px;
-}
-
-.cart-content__resumen__total div {
-  display: flex;
+  gap: 50px;
+  align-items: center;
   justify-content: space-between;
 }
 
-.cart-content__resumen__total__texto {
-  font-weight: 600;
+.form-input input {
+  border: none;
+  border-bottom: 3px solid var(--primary-solid);
 }
 
-.cart-content__resumen__total__precio {
-  font-weight: 600;
-  color: #747474;
+.form-button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-.cart-content__resumen__total__caja {
-  border-top: 2px solid #ff3333;
-  padding-top: 8px;
+.form-checkbox {
+  display: flex;
+  gap: var(--spacing-8);
+  align-items: center;
 }
 
-.cart-content__resumen__total__bold {
-  font-size: 20px;
+.form-checkbox p {
+  color: var(--dark-solid);
+  font-family: var(--alternative-font);
+  font-size: var(--font-sxmall);
+}
+
+.form-button button {
+  background-color: var(--primary-solid);
+  height: 3rem;
+  width: 8rem;
+}
+
+.login__promo {
+  font-size: var(--font-sxmall);
+  color: var(--secondary-solid);
   font-weight: 700;
-}
-
-.cart-content__resumen__total__bold__precio {
-  font-size: 20px;
-  font-weight: 700;
-  color: #747474;
 }

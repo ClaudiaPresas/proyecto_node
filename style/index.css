@@ -275,7 +275,7 @@ header {
 
 .footer {
   background-color: var(--dark-bg-solid);
-  padding: var(--spacing-68);
+  padding: 10px 150px;
 }
 
 .footer__copy {
